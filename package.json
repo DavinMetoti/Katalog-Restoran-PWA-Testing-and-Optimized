@@ -13,7 +13,7 @@
     "build-image": "node sharp.js",
     "build-serve": "npm run build && npm run serve",
     "predeploy": "npm run build",
-    "deploy": "dist -d build"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Davinmetoti",
