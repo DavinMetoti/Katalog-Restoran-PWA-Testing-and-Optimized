@@ -1,6 +1,7 @@
 @media only screen and (max-width: 699px) {
 
   .header {
+    background-image: url('../public/images/heros/hero-image_2_small.jpg');
     min-height: 400px; 
   }
 
@@ -135,5 +136,9 @@
   }
   .resto-item_image-container {
     max-width: 300px;
+  }
+  .header {
+    background-image: url('../public/images/heros/hero-image_2_medium.jpg');
+    min-height: 400px; 
   }
 }

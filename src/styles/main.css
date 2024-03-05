@@ -173,7 +173,7 @@ a {
 /* hero */
 
 .header {
-  background-image: url('../public/images/heros/hero-image_2.jpg');
+  background-image: url('../public/images/heros/hero-image_2_large.jpg');
   /* filter: brightness(60%); */
   background-size: cover;
   min-height: 550px;
