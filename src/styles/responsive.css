@@ -1,4 +1,26 @@
 @media only screen and (max-width: 699px) {
+
+  .header {
+    min-height: 400px; 
+  }
+
+  header .header-inner .header-title {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .header .header-inner .header-sub-title {
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+  }
+  
+  .header .header-inner .header-content {
+    font-weight: bold;
+    padding: 8px;
+  }
+  
+
   .nav-container {
     display: block;
   }
@@ -8,22 +30,37 @@
     justify-content: space-between;
     padding: 12px 10px;
   }
-  .nav__menu ul {
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-  }
 
-  .header_menu {
-    font-size: 20px;
+  .menu-links {
+    display: flex;
+    z-index: 99999;
+    flex-direction: column;
+    transform: translateX(-700px);
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 20rem;
+    height: 100vh;
+    background-color: #000000;
+    transition: all 0.5s ease;
+    }
+
+    .menu-links a {
+      margin-top: 2rem;
+    }
+  
+  /* .menu-links .nav-active {
+    max-height: 200px; 
+    transition: max-height 0.5s ease;
+  } */
+  
+
+  .menu-btn{
     display: block;
   }
-  .nav__menu {
-    justify-content: start;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.4s ease-in-out;
-  }
+
   .main-resto_container {
     padding: 25px 20px;
   }

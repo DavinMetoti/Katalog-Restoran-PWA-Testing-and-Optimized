@@ -15,44 +15,35 @@
 
 <body>
   <a class="skip2content" aria-label="button skip to button" tabindex="0" href="#mainContent">Lewati menuju konten</a>
-  <header>
-    <nav>
-      <div class="nav-container" id="navcontainer">
-        <div class="brand">
-          <a href="/#">DAPP RESTO</a>
-          <button id="menu" class="header_menu" aria-label="button menu dropdown">
-            ☰
-          </button>
-        </div>
-
-        <div class="nav__menu" id="navmenu">
-          <ul>
-            <li>
-              <a href="./#">Home</a>
-            </li>
-            <li>
-              <a href="#/favorite">Favorite</a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/davinmetoti/" target="_blank" rel="noopener noreferrer">About</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="/#">DAPP RESTO</a>
+    </div>
+    <div class="menu" id="navmenu">
+      <div class="menu-links">
+        <a href="./#">Home</a>
+        <a href="#/favorite">Favorite</a>
+        <a href="https://www.linkedin.com/in/davinmetoti/" target="_blank" rel="noopener noreferrer">About</a>
       </div>
-    </nav>
+    </div>
+    <div class="menu-btn">
+      <button id="menu" class="header_menu" aria-label="button menu dropdown">
+        ☰
+      </button>
+    </div>
+  </nav>
+
+  <header>
+    <div class="header">
+      <div class="header-inner">
+        <h1 tabindex="0" class="header-title">DAPP RESTO</h1>
+        <h2 tabindex="0" class="header-sub-title">Selamat Datang</h2>
+        <p tabindex="0" class="header-content">Temukan makanan harga kaki lima rasa bintang 5</p>
+      </div>
+    </div>
   </header>
 
-  <div class="header">
-    <div class="header-inner">
-      <h1 tabindex="0" class="header-title">DAPP RESTO</h1>
-      <h2 tabindex="0" class="header-sub-title">Selamat Datang</h2>
-      <p tabindex="0" class="header-content">Temukan makanan harga kaki lima rasa bintang 5</p>
-    </div>
-  </div>
-
   <main id="mainContent" class="main-resto_container"></main>
-
-  <hr />
   <footer>
     <p class="footer-text">Copyright &copy; 2024 - Davin Metoti</p>
   </footer>

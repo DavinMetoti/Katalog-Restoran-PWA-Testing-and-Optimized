@@ -49,14 +49,14 @@ a {
   top: 30px;
 }
 
-header {
+/* header {
   top: 0;
   position: sticky;
   z-index: 100;
-}
+} */
 
 /* nav */
-nav {
+/* nav {
   position: relative;
   width: 100%;
   background-color: white;
@@ -115,7 +115,60 @@ nav {
   padding: 10px;
     border: 2px solid #F57D1F;
     border-radius: 12px;
+} */
+
+.navbar{
+  height: 70px;
+  background-color: #FF9800;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.navbar .logo a {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.menu-links{
+  display: flex;
+  gap: 24px;
+  padding-inline: 8px 16px;
+}
+
+.menu-links a{
+  font-weight: 500;
+  color: #999999;
+  padding: 8px 16px;
+}
+
+.menu-links a:hover{
+  color: white;
+}
+
+.menu-btn{
+  font-size: 32px;
+  color: white;
+  display: none;
+  cursor: pointer;
+}
+
+#menu{
+  background-color: transparent;
+  color: whitesmoke;
+  font-size: 2rem;
+  border: none;
+}
+
 
 /* hero */
 
@@ -505,7 +558,7 @@ form {
 
 .form-group input {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;

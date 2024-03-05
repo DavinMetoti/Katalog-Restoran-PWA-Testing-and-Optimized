@@ -8,7 +8,7 @@ import swRegister from './utils/sw-register';
 
 const app = new App({
   button: document.querySelector('#menu'),
-  drawer: document.querySelector('#navmenu'),
+  drawer: document.querySelector('.menu-links'),
   content: document.querySelector('#mainContent'),
 });
 

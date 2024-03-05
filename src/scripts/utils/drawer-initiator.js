@@ -11,17 +11,17 @@ const DrawerInitiator = {
 
   _toggleDrawer(event, drawer) {
     const drawerElement = drawer;
-    if (drawerElement.style.maxHeight) {
-      drawerElement.style.maxHeight = null;
+    if (drawerElement.style.transform === 'translateX(0px)') {
+      drawerElement.style.transform = 'translateX(-700px)';
     } else {
-      drawerElement.style.maxHeight = `${drawerElement.scrollHeight}px`;
+      drawerElement.style.transform = 'translateX(0px)';
     }
     event.stopPropagation();
   },
 
   _closeDrawer(event, drawer) {
     const drawerElement = drawer;
-    drawerElement.style.maxHeight = null;
+    drawerElement.style.transform = 'translateX(-700px)';
     event.stopPropagation();
   },
 };
